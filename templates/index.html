@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Ent</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #F7F9FB; 
+            color: #333; 
+        }
+        footer {
+            background-color: #2B3A2D; 
+            color: #E1E5E8;
+            padding: 20px 0; 
+        }
+        
+        h1 {
+            color: #4B5D33; 
+            margin-bottom: 10px; 
+            font-weight: 700;
+            font-size: 3em; 
+        }
+        h2 {
+            color: #5A7D34; 
+            margin-bottom: 10px; 
+            font-weight: 600;
+            font-size: 2.5em; 
+        }
+        h3 {
+            color: #6BBE45; 
+            margin-bottom: 5px; 
+            font-weight: 500;
+            font-size: 1.75em; 
+        }
+        h5 {
+            color: #BAC2B8; 
+            margin-top: 20px; 
+        }
+        p {
+            margin-bottom: 15px; 
+            line-height: 1.8;
+            font-size: 1.1em; 
+        }
+        .responsive-iframe {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            margin: 15px 0; 
+        }
+        .responsive-iframe iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 8px; 
+        }
+        .card {
+            border: none; 
+            border-radius: 8px; 
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+            margin-bottom: 15px; 
+            padding: 20px; 
+        }
+        .container {
+            padding: 30px 15px; 
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px; 
+            background-color: #4B5D33;
+            color: #fff; 
+            text-decoration: none; 
+            border-radius: 5px; 
+            transition: background-color 0.3s ease, transform 0.2s ease; 
+            border: none; 
+            margin: 5px; 
+            font-size: 1.1em;
+        }
+        .btn:hover {
+            background-color: #3B4D27;
+            transform: translateY(-2px); 
+        }
+        .section {
+            background-color: #E9F5E9; 
+            padding: 20px;
+            border-radius: 8px; 
+            margin: 15px 0; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container text-center">
+        <h1>Seja bem-vindo ao projeto Ent!</h1>
+        <h2>Iniciativa Open Source para Conscientização e Prevenção de Queimadas no Brasil</h2>
+        <p>
+            Nosso bot gratuito de Telegram permite que os usuários informem sua cidade e, em seguida, pesquisa em tempo real os relatos de queimadas mais recentes e mais próximos. Utilizando bancos de dados oficiais do estado, o bot fornece informações atualizadas sobre a situação das queimadas na região, ajudando a manter a comunidade informada e consciente sobre os riscos e a importância da preservação ambiental.
+        </p>
+        <p>
+            Caso não tenha conta no Telegram, crie gratuitamente uma conta e utilizar a rede social pelo celular, computador ou web.
+            <a href="https://telegram.org/?setln=pt-br" target="_blank" class="btn">Site oficial do Telegram</a>
+            <a href="https://t.me/Queimadas_Alertas_bot" target="_blank" class="btn">Queimadas Alertas Bot</a>
+        </p>
+        <div class="section">
+            <h2>Contextualização das Queimadas no Brasil</h2>
+            <div class="row">
+                <div class="col-12">
+                    <h3>Emergência Ambiental</h3>
+                        <p>
+                            As queimadas e incêndios na Amazônia brasileira representam uma grave emergência ambiental. Apesar de uma redução de 16% na taxa de desmatamento no último ano, o número de incêndios tem aumentado de forma alarmante.
+                             
+                            Especialmente na Amazônia Ocidental, incluindo o Peru. Em 2023, os incêndios em áreas de floresta antiga na Amazônia aumentaram 152% em comparação a 2022. Em 2024, mais de 53.000 incêndios foram registrados no Brasil até agosto, um aumento de 80% em relação ao ano anterior.
+                        </p>
+                    <h3>Dados Recentes</h3>
+                        <p>
+                            Esse crescimento é impulsionado por secas mais frequentes, que tornam as florestas mais vulneráveis a incêndios, e principalmente por atividades ilegais, como a agropecuária e a mineração irregular, que desmatam e degradam a floresta, além de muitas vezes violar os diretos dos povos indígenas originários.
+                            <h4>Referências</h4>
+                            <a href="https://amazonwatch.org/news/2024/0911-deforestation-declines-but-fires-rage-on-in-the-amazon" target="_blank">Deforestation Declines but Fires Rage On in the Amazon</a>
+                            <br><a href="https://amazonwatch.org/news/2021/0831-forests-fires-and-finance-how-financial-institutions-are-fanning-the-flames" target="_blank">Forests, Fires, and Finance</a>.
+                        </p>
+                        
+                    <div class="responsive-iframe">
+                        <iframe src="https://www.youtube.com/embed/XyZ_aBS0Jyc" frameborder="0" allowfullscreen title="Vídeo sobre queimadas"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center py-3">
+        <div class="container">
+            <h5>Desenvolvedores</h5>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 mb-3">
+                    <p>
+                        Victor Sabaa<br>
+                        GitHub: <a href="https://github.com/V1ct0rSabaa" target="_blank">github.com/V1ct0rSabaa</a><br>
+                        E-mail: <a href="mailto:victor22070208@aluno.cesupa.br">victor22070208@aluno.cesupa.br</a>
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <p>
+                        Nome: Fabricio José<br>
+                        GitHub: <a href="https://github.com/mariasouza" target="_blank">github.com/mariasouza</a><br>
+                        E-mail: <a href="mailto:fabricio21070035@aluno.cesupa.br">fabricio21070035@aluno.cesupa.br</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
